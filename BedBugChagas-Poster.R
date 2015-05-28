@@ -1,6 +1,6 @@
 
 simlength = 1000 #Number of days in the simulation
-reps = 50 #Number of times to repeat the simulation
+reps = 60 #Number of times to repeat the simulation
 
 #What is the makeup of the household (all hosts and vectors)?
 numHum = 5 
