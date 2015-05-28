@@ -25,8 +25,7 @@ sd.feed <- 2  # sd of days between feeding for vectors
 sd.buglife <- 30  # sd of days for bug lifetime
 
 SimulateReps <- function(humtobug.I, reps){
-  # SimulateReps runs the intra-household simulation for a specified number of
-  # "reps"
+  # Runs the intra-household simulation for a specified number of "reps"
   #
   # Args:
   #   humtobug.I: probability of an infected human infecting a susceptible bug

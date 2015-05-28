@@ -24,7 +24,7 @@ humtobugI <- 0.042  # probability of an infected human infecting a bug from a
 humtobugI2 <- 0.0048 #After first three years of infection
 
 Simulate <- function(){
-  # Simulate runs a single intra-household simulation 
+  # Runs a single intra-household simulation 
   #
   # Returns:
   #   A data table of the number of the number of humans and bed bugs infected
