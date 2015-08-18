@@ -19,7 +19,7 @@ bugtohum.I <- 0.00058  # The probability of an infectious bite infecting a human
 humtobug.I <- 0.042  # The probability of an infected human infecting a bug from a 
   # bite in the first three years of infection
 humtobug.I2 <- 0.0048 #After first three years of infection
-mig.rate <- 1/7
+mig.rate <- 1/3
 
 # Designating distributions to draw bug feeding days and lifetimes:
 sd.feed <- 2  # sd of days between feeding for vectors
@@ -117,3 +117,6 @@ hist(new.hum.infections, breaks=0:4, freq=FALSE, las = 1,
 #dev.print(device=pdf, "hist.pdf", width=5, height=5)
 
 sum(new.hum.infections)
+
+plot(c(0,3,7,14,30,60),c(353,315,235,171,128,56)/200, ylab = "Number of New 
+     Infestations (Per Capita)", xlab = "Number of Days Between Migration Events")
